@@ -1,0 +1,17 @@
+
+.carrito{
+ 
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0px;
+}
+h1{
+    color: darkred;       
+}
+p{
+    text-align: justify;
+}
+.borde{
+    border: 1px #000000 solid;
+}
+

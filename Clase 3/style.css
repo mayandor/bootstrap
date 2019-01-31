@@ -1,0 +1,19 @@
+.cabecera{
+    background: seagreen;
+}
+.izquierda{
+    background: firebrick;
+}
+.derecha{
+    background: gold;
+}
+ .medio1{
+     background: aqua;
+ }
+ .medio2{
+     background: teal;
+ }
+ .borde{
+    border: 1px #000000 solid;
+    text-align: center;
+ }

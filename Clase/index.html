@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .borde{
+            border: 1px #000000 solid ;
+            height: 50px;
+            text-align: center;
+        }
+        .color4{
+            background: blue;
+            height: 500px;
+        }
+        .color1{
+            background: white;
+        }
+        .color2{
+            background: aqua;
+        }
+        .color3{
+            background: salmon;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Alineamiento</h1>
+    </div>
+    <div class="container">
+        <div class="row color4 align-items-star justify-content-between">
+            <div class="col-1 borde color3">1</div>
+            <div class="col borde color3 ">2
+                <div class="row align-items-star justify-content-center">
+                    <div class="col-1 color2">sub 1</div>
+                    <div class="col-1 color2">sub 2</div>
+                    <div class="col-1 color2">sub 3</div>
+                </div>
+            </div>
+            <div class="col-1 borde color3">3</div>
+            <div class="col-1 borde color3">4</div>
+            <div class="col-1 borde color3">5</div>
+        </div>
+    </div>
+</body>
+</html>
